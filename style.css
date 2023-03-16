@@ -1,170 +1,44 @@
+.gracejacobs {
+	max-width: 200px;
+}
+
+.header {
+	text-align: center;
+	color: white;
+	background: black;
+}
+
+
+
+p {
+	font-family: 'Inria Serif', serif;
+	font-family: 'Shantell Sans', cursive;
+	font-family: 'sans-serif;'
+}
+
 body {
-	display: flex;
-	justify-content: center; 
-	    align-items: center;
-	    flex-direction: column; 
-
-	}
-
-header {
-	background-color: lightpink;
+	background-color: #DBF9FC;
 }
 
-.nav1 {
-    background-color: transparent;
-/*    position: sticky;*/
-/*    bottom: 5px; right: 5px;*/
-    float: center !important;
-    font-family: 'Libre Baskerville', serif;
-    align-items: center;
-text-transform: uppercase;
-    font-weight: 100;
-    font-size: 1rem;
-    max-width: 100%;
-    min-width: 30%;
-  /*  margin: 5rem;*/
-  /*  margin: 1rem 2rem 1rem 1rem;*/
-  /*  border: dashed red;*/
-    padding: .1rem .1rem .1rem .3rem;
-  
-
-  }
-.header {
-	font-family: 'Tilt Warp', cursive;
-	font-size: 30px;
-	align-items: center
+img {
+	width: 400px,
+	height: auto;
 }
-
- .nav1 a {
- 	background-color: lightpink;
-/* 	display: inline-block;*/
- 	border: dotted white 2px;
- 	padding:.2rem;
- 	border-radius: 0.1rem;
- }
-
-.littleolivia {
-	border: none;
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-	align-items: center;
-}
+.mark-img
+{
+	float: left;
+	margin: 3px;
+	/*padding-right: 10px;*/
+	max-height: 3.5rem;
+	margin-top: 0.5rem;
 
 
-a img {
-	border: none;
-}
 
-ul {
-  	list-style-type: none;
-}
-
-.maintext {
-		display: flex;
-		justify-content: center; 
-	    align-items: center;
-	    flex-direction: column; 
-        background: #CF578A;
-        border-radius: 0%;
-        padding: 1em;
-        max-width: 800px;
-    }
-
-.emailinfo {
-	font-family: 'Limelight', cursive;
-	color: white;
-	test-align: center; 
-	align-items: center:
-}
-.joke {
-	font-family: 'Libre Baskerville', serif;
-	color: lightpink;
-	text-align: center;
-	align-items: center;
-	width: 80%;
-
-  /* Set the background size and repeat properties. */
-  background-size: 100%;
-  background-repeat: repeat;
-
-  /* Use the text as a mask for the background. */
-  /* This will show the gradient as a text color rather than element bg. */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: white; 
 
 }
 
-.header2 {
-	font-family: 'Tilt Warp', cursive;
-	font-size: 25px;
-	align-items: center
+.project-thumb {
+	float: left;
+	padding: .2rem;
+
 }
-	
-.movielist {
-	font-family: 'Libre Baskerville', serif;
-	text-align: center;
-	color: white;
-	font-size: 15px;
-	}
-
-footer {
-	background-color: hotpink;
-}
-
-@media screen and (max-width: 554px){
-
-.header {
-	font-family: 'Tilt Warp', cursive;
-	font-size: 30px;
-	align-items: center
-}
-.emailinfo {
-	font-family: 'Limelight', cursive;
-	color: white;
-	test-align: center; 
-	align-items: center:
-}
-.header2 {
-	font-family: 'Tilt Warp', cursive;
-	font-size: 25px;
-	align-items: center
-}	
-	
-.maintext {
-		margin-top: 1rem;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center; 
-	    align-items: center ;
-	    flex-direction: column; 
-        background: #CF578A;
-        color: white;
-        border-radius: .1em;
-        padding: 1em;
-        font-size: 10px;
-        
-    }
-
-    .nav1 {
-    	align-items: center;
-    	background-color: transparent;
-
-    font-family: 'Libre Baskerville', serif;
-    	text-transform: uppercase;
-    	font-weight: 100;
-    	font-size: 10px;
-    	max-width: 100%;
-    	min-width: 85%;
-  
-
- 	 }
-	.nav1 a {
-		background-color: lightpink;
-	 	display: block;
-	 	border: dotted white 2px;
-	 	padding: .2rem;
-	 	margin: .2rem;
-	 	float: right;
-	}
