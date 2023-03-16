@@ -9,7 +9,9 @@
 <h1>Grace Jacobs</h1>
 <h2>Contact Info: gajmgt@mail.missouri.edu 417-850-2155</h2>
 <h2>Joke: The Eagles</h2>
-   <a href="mailto:gajmgt@umsystem.edu"><img src="img/gracejacobs.jpg" alt="grace wearing Mizzou shirt"></a>
+   <a href="mailto:gajmgt@umsystem.edu"><img src="img/gracejacobs.jpg" 
+     width="400" 
+     height="500" /> alt="grace wearing Mizzou shirt"></a>
 <h2>Favorite Movies:</h2>
 <ul>
   <li>The Shining</li>
