@@ -1,154 +1,170 @@
-head {
-	background-color: blue;
-}
-
-
-nav {
-  color: black;
-  background-color: #fcbf49;
-  padding: .5rem;
-  display: block;
-  margin: 0;
-  border-bottom: 0px solid #FFF;
-  left: 0px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-nav li, nav li a {
-  width: 100%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.active {
-  background-color: #a44a3f;
-  color: #000;
-  padding: 1rem;
-}
-
-a:link {
-  text-decoration: none;
-  color: black;
-}
-
-a:visited {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  text-decoration: none;
-}
-
-
-
-main {
-  width: 95%;
-  max-width: 1000px;
-  background: #fcbf49;
-  /*border-radius: 1rem;*/
-  padding: 1rem 2rem;
-  box-sizing: border-box;
-  margin: 1rem auto;
-}
-
 body {
-	padding-top: 5rem;
-	align-content: center;
-	background-color: #a44a3f;
-	text-align: center;
-	color: white;
+	display: flex;
+	justify-content: center; 
+	    align-items: center;
+	    flex-direction: column; 
+
+	}
+
+header {
+	background-color: lightpink;
 }
 
-h1 {
-	text-transform: uppercase;
-	text-align: center;
-	font-family: 'Antic Didone', serif;
-	font-size: 3.5em;
-	font-weight: 900;
+.nav1 {
+    background-color: transparent;
+/*    position: sticky;*/
+/*    bottom: 5px; right: 5px;*/
+    float: center !important;
+    font-family: 'Libre Baskerville', serif;
+    align-items: center;
+text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1rem;
+    max-width: 100%;
+    min-width: 30%;
+  /*  margin: 5rem;*/
+  /*  margin: 1rem 2rem 1rem 1rem;*/
+  /*  border: dashed red;*/
+    padding: .1rem .1rem .1rem .3rem;
+  
+
+  }
+.header {
+	font-family: 'Tilt Warp', cursive;
+	font-size: 30px;
+	align-items: center
 }
 
-h5 {
-	text-decoration: underline;
-	text-align: right;
-	font-size: .5em;
-	color: blue;
+ .nav1 a {
+ 	background-color: lightpink;
+/* 	display: inline-block;*/
+ 	border: dotted white 2px;
+ 	padding:.2rem;
+ 	border-radius: 0.1rem;
+ }
+
+.littleolivia {
+	border: none;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+	align-items: center;
 }
 
-p {
-	font-family: 'Abril Fatface', cursive;
-	font-size: 2.5em;
-	font-weight: normal;
+
+a img {
+	border: none;
 }
 
 ul {
-	text-align: center;
-	list-style-position: inside;
-	font-family: 'PT Sans Narrow', sans-serif;
-	font-size: 1.0em;
+  	list-style-type: none;
 }
 
-img {
-	border-image: 0;
+.maintext {
+		display: flex;
+		justify-content: center; 
+	    align-items: center;
+	    flex-direction: column; 
+        background: #CF578A;
+        border-radius: 0%;
+        padding: 1em;
+        max-width: 800px;
+    }
+
+.emailinfo {
+	font-family: 'Limelight', cursive;
+	color: white;
+	test-align: center; 
+	align-items: center:
 }
+.joke {
+	font-family: 'Libre Baskerville', serif;
+	color: lightpink;
+	text-align: center;
+	align-items: center;
+	width: 80%;
+
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: white; 
+
+}
+
+.header2 {
+	font-family: 'Tilt Warp', cursive;
+	font-size: 25px;
+	align-items: center
+}
+	
+.movielist {
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	}
 
 footer {
-  background-color: #250001;
-  text-align: center;
+	background-color: hotpink;
 }
 
+@media screen and (max-width: 554px){
 
-
-
-@media (min-width: 555px) {
-
-  .media-holder {
-    flex-direction: row;
-  }
-
-  .image-holder {
-    width: 30%;
-  }
-
-  .media-list .text-holder {
-    width: 70%;
-  }
-
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  nav li {
-    width: 50%;
-  }
-
+.header {
+	font-family: 'Tilt Warp', cursive;
+	font-size: 30px;
+	align-items: center
 }
-
-
-@media (min-width: 800px) {
-
-  .image-holder {
-    width: 250px;
-  }
-
-  .media-list .text-holder {
-    width: calc(100% - 250px);
-  }
-
-  nav li {
-    width: 25%;
-  }
+.emailinfo {
+	font-family: 'Limelight', cursive;
+	color: white;
+	test-align: center; 
+	align-items: center:
 }
+.header2 {
+	font-family: 'Tilt Warp', cursive;
+	font-size: 25px;
+	align-items: center
+}	
+	
+.maintext {
+		margin-top: 1rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center; 
+	    align-items: center ;
+	    flex-direction: column; 
+        background: #CF578A;
+        color: white;
+        border-radius: .1em;
+        padding: 1em;
+        font-size: 10px;
+        
+    }
+
+    .nav1 {
+    	align-items: center;
+    	background-color: transparent;
+
+    font-family: 'Libre Baskerville', serif;
+    	text-transform: uppercase;
+    	font-weight: 100;
+    	font-size: 10px;
+    	max-width: 100%;
+    	min-width: 85%;
+  
+
+ 	 }
+	.nav1 a {
+		background-color: lightpink;
+	 	display: block;
+	 	border: dotted white 2px;
+	 	padding: .2rem;
+	 	margin: .2rem;
+	 	float: right;
+	}
